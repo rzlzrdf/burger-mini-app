@@ -1,8 +1,8 @@
 import React from 'react'
-
+import style from './burger.module.css'
 const Cheese = () => {
   return (
-    <div>Cheese</div>
+    <div className={style.cheese}></div>
   )
 }
 
